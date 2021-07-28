@@ -1,0 +1,134 @@
+.content__header{
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-7.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.content__header-text::before{
+    content: "";
+    display: block;
+    height: 200px;
+    width: 100%;
+}
+.content__header-text::after{
+    content: "";
+    display: block;
+    height: 50px;
+    width: 100%;
+}
+
+.content__header-heading{
+    padding: 15px;
+    display: block;
+    color: var(--white-color);
+    font-size: 2em;
+    font-weight: 800;
+}
+
+.content__header-items{
+    padding: 0 15px;
+    color: var(--white-color);
+
+}
+
+.content__header-items i{
+    opacity: 0.5;
+}
+
+
+/* content */
+
+.content__introduce{
+    padding: 50px 0 0;
+}
+
+.content__text{
+    padding: 15px;
+    color: var(--text-color);
+    font-size: 0.925em;
+    line-height: 1.7em;
+}
+
+.content__text-above{
+    
+}
+
+.content__text-1{
+    display: flex;
+
+}
+
+.content__text-A{
+    padding: 28px;
+    line-height: 30px;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.content__text-item{
+
+}
+
+.content__text-2{
+
+}
+
+.content__text-under{
+    display: block;
+    margin-top: 40px;
+}
+
+.content__extra{
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+}
+
+.content__extra-items{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    justify-content: space-between;
+}
+
+.content__extra-items:nth-of-type(2){
+    margin: 30px 0;
+}
+
+.content__extra-img{
+    width: 45px;
+    background-color: var(--btn-color2);
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.content__extra-heading{
+    line-height: 1.5em;
+    color: var(--heading-color);
+    font-size: 0.9em;
+}
+
+.content__extra-text{
+    line-height: 1.5em;
+    font-size: 0.9em;
+    color: var(--text-color);
+}
+
+
+
+
+/* packages */
+
+.heading__destinations span::after{
+    width: 210px;
+}
+
+.content-list{
+    padding-top: 0;
+}

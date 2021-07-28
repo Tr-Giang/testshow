@@ -1,0 +1,46 @@
+@media (max-width:1239px){
+    #main{
+        overflow: hidden;
+    }
+
+    .heading{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .content {
+        padding-bottom: 0;
+        margin-bottom: -1px;
+    }
+
+    .content__type{
+        display: none;
+    }
+
+    .content__search{
+        border: none;
+    }
+
+    
+}
+
+@media (min-width:740px) and (max-width:1239px) {
+    .content__value{
+        margin-top: 30px;
+    }
+
+    .content__more .content__check{
+        min-width: 700px;
+    }
+}
+
+@media (max-width:739px) {
+    .content__text,
+    .content__price{
+        margin-top: 30px;
+        display: inline-block;
+    }
+
+    .content__more .content__check{
+        width: fit-content;
+    }
+}

@@ -1,0 +1,233 @@
+.content {
+    background-image: url(http://www.nicdarkthemes.com/themes/travel/wp/demo/summer-holiday/wp-content/uploads/sites/4/2018/11/para-7.jpg?id=1814);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.heading{
+    text-align: left;
+    color: var(--white-color);
+}
+
+.heading__proposals {
+    color: var(--white-color);
+}
+
+.heading__destinations {
+    color: var(--white-color);
+
+}
+
+.heading__destinations span::after{
+    width: 143px;
+}
+
+.content__search{
+    padding: 40px 40px 70px;
+    background-color: var(--white-color);
+    position: relative;
+}
+
+.search__select-option{
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-size: 1em;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    border-radius: 30px;
+    outline: none;
+    width: 100%;
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+
+.content__value{
+    display: flex;
+    justify-content: space-between;
+    color: var(--heading-color);
+}
+
+.content__text {
+    color: var(--heading-color);
+    font-size: 0.85em;
+    font-weight: 800;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.content__date {
+    padding: 6px 20px;
+    color: var(--text-color);
+    font-size: 1.4em;
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    border-radius: 30px;
+    outline: none;
+    width: 100%;
+}
+
+.content__range {
+    padding: 10px 20px;
+    border: 1px solid #efefef;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.content__range:hover{
+    opacity: 0.5;
+}
+
+.content__range-text {
+    color: var(--text-color);
+    font-size: 0.95em;
+}
+
+.content__more {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.075);
+    z-index: 1;
+}
+
+.content__more:hover .content__check{
+    display: flex;
+}
+
+
+
+.more-filters {
+    color: var(--white-color);
+    background-color: var(--btn-color1);
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 0.85em;
+    position: absolute;
+    top: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: max-content;
+}
+
+.content__more .content__check {
+    background-color: var(--white-color);
+    margin-top: 50px;
+    width: 700px;
+    padding: 25px;
+    display: none;
+}
+
+.content__check::before{
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent var(--white-color) transparent;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content__check-header {
+    color: var(--heading-color);
+    font-weight: 700;
+    display: block;
+    padding: 10px 0;
+}
+
+
+
+.content__check-text {
+    color: var(--text-color);
+    padding: 8px 5px;
+    display: inline-block;
+    font-size: 0.9em
+}
+
+.content__type{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+.content__type-text {
+    display: flex;
+    
+
+}
+
+.content__type-icon {
+    display: flex;
+}
+
+.content__type-price,
+.content__type-name{
+    display: block;
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.content__type-heading{
+    color: var(--white-color);
+    font-size: 0.9em;
+}
+
+
+.content__type-name:hover .content__type-list,
+.content__type-price:hover .content__type-list{
+    display: block;
+}
+
+.content__type-list{
+    background-color: #555555;
+    color: #999;
+    font-size: 0.7em;
+    position: absolute;
+    top: calc(100% + 20px);
+    width: max-content;
+    display: none;
+}
+
+.content__type-list::before{
+    content: "";
+    display: block;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.content__type-list span{
+    padding: 15px 20px;
+    display: block;
+    cursor: pointer;
+}
+
+.click{
+    background-color: #5d5d5d;
+}
+
+.content__type-icon-item{
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+.content__type-icon-item i{
+    color: var(--white-color);
+    font-size: 1.5em;
+    display: block;
+}
+
+
